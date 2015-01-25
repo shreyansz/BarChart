@@ -20,6 +20,8 @@ The objective of this exercise is to create a bar chart from sql file and js fil
 
 ### Installation
 * Ensure MySQL and MongoDB are running smoothly.
+* Place your MySQL credentials and endpoint on line 7 in model.php
+* Download [JpGraph] and place the folder alongside the BarChart folder so that they both have the same parent folder. Basically, you want it to be one directory level above view.php 
 * Place this folder in server location from where it can accessed by the browser. (Normally htdocs or shtdocs). 
 * Run db/setup.php either from command line or browser to setup data. 
 
@@ -30,6 +32,8 @@ The objective of this exercise is to create a bar chart from sql file and js fil
 ### Assumptions
     All records for a particular school are only in one database. i.e. they are not shared between MySQL and MongoDB.
 
+![alt text][Screenshot]
+
 License
 ----
 MIT
@@ -39,3 +43,4 @@ MIT
 
 [EducationSuperHighway]:http://www.educationsuperhighway.org/
 [JpGraph]:http://jpgraph.net/
+[Screenshot]: https://github.com/shreyansz/BarChart/blob/master/BarChart.png
